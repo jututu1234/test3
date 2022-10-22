@@ -1,0 +1,112 @@
+#second-page{
+    margin-top: 355px;
+    background-color: #0d1129;
+    width: 100%;
+    height: 850px;
+    position: absolute;
+}
+
+#packets{
+    margin-top: 125px;
+    margin-left: 820px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 32px;
+    color: white;
+}
+
+.fa-lock-open{
+    transition-duration: .3s;
+    color: #78a7ff;
+}
+
+.fa-lock-open:hover{
+    transform: translateY(-5px);
+}
+#key{
+margin-top: 55px;
+margin-left: 155px;
+position: absolute;
+}
+
+#lock-title{
+    margin-left: 125px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+color: #78a7ff;
+}
+
+#lock-description{
+    font-size: 26px;
+    margin-left: 125px;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+.fa-comments{
+    transition-duration: .3s;
+color: #78a7ff;
+}
+
+.fa-comments:hover{
+    transform: translateY(-5px);
+
+}
+#support{
+    margin-top: 285px;
+    margin-left: 155px;
+    position: absolute;
+    }
+
+    .fa-laptop-code{
+        transition-duration: .3s;
+        color: #78a7ff;
+    }
+    .fa-laptop-code:hover{
+        transform: translateY(-5px);
+    }
+    .fa-percent{
+        transition-duration: .3s;
+        color: #78a7ff;
+    }
+    .fa-percent:hover{
+        transform: translateY(-5px);
+    }
+
+    #professional{
+        margin-top: 55px;
+        margin-left: 1055px;
+        position: absolute;
+    }
+
+
+    #discount{
+        margin-top: 285px;
+        margin-left: 1055px;
+        position: absolute;
+    }
+
+    .fa-calendar-days{
+        transition-duration: .3s;
+        color: #78a7ff;
+    }
+
+    .fa-calendar-days:hover{
+        transform: translateY(-5px);
+    }
+    #trust{
+        margin-top: 510px;
+        margin-left: 1055px;
+    }
+
+    .fa-qrcode{
+        transition-duration: .3s;
+        color: #78a7ff;
+    }
+.fa-qrcode:hover{
+    transform: translateY(-5px);
+}
+    #protect{
+        position: absolute;
+        margin-top: -100px;
+        margin-left: 155px;;
+    }

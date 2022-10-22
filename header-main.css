@@ -1,0 +1,209 @@
+* {margin: 0;}
+#title-font{
+    margin-top: 225px;
+    margin-left: 225px;
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#description-font{
+    margin-left: 225px;
+    font-family: 'Montserrat', sans-serif;    color: #9293b5;
+    font-size: 16px;
+}
+
+#date{
+    color: #1b57c4;
+}
+
+
+#description-font-plan{
+    margin-top: 35px;
+    margin-left: 225px;
+    font-family: 'Montserrat', sans-serif;    color: #ffffff;
+    font-size: 20px;
+}
+
+#purchase-box{
+    margin-top: 15px;
+    margin-left: 220px;
+    border-radius: 15px;
+    box-shadow:  #1b57c4 0px 50px 100px -20px,  #1b57c4 0px 30px 60px -30px;
+    background-color: #1b57c4;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    transition-duration: .4s;
+}
+#purchase-box:hover{
+    box-shadow:  rgb(147, 56, 150) 0px 50px 100px -20px,  rgb(147, 56, 150) 0px 30px 60px -30px;
+    transform: translateY(-5px);
+    background-color: rgb(147, 56, 150);
+
+}
+#purchase{
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 32px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    color: white;
+}
+
+#home{
+    position: absolute;
+    margin-top: -425px;
+    margin-left: 232px;
+    font-family: 'Montserrat', sans-serif;    color: #ffffff;
+    font-size: 16px;
+}
+
+#homepage-slash{
+    color: #1b57c4;
+}
+
+#header-background{
+    animation: a1 1s infinite alternate-reverse ease-in;
+    margin-top: -433px;
+    margin-left: 1055px;
+    position: absolute;
+    width: 655px;
+}
+
+@keyframes a1 {
+    to {        opacity: 55%;
+transform: translateY(-25px);    }
+  }
+
+  #navbar{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #030523;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    color: white;
+    top: 0;
+    position: fixed;
+  }
+
+  #home-title{
+    position: absolute;
+    color: white;
+    margin-top: 25px;
+    margin-left: 355px;
+  }
+  
+  #home-title:hover{
+    transition-duration: .2s;
+    color: #a9aada;
+  }
+
+  #home-title:active{
+    transform: translateY(-5px);
+    color: #8284a8;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .fa-solid{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 10px;
+  }
+
+  #packet-title{
+    margin-top: 25px;
+    color: white;
+    position: absolute;
+    margin-left: 550px;
+  }
+
+  #packet-title:hover{
+    transition-duration: .2s;
+    color: #a9aada;
+  }
+
+  #packet-title:active{
+    transform: translateY(-5px);
+    color: #8284a8;
+  }
+
+  #contact-title{
+    margin-top: 25px;
+    color: white;
+    position: absolute;
+    margin-left:750px;
+  }
+
+  #contact-title:hover{
+    transition-duration: .2s;
+    color: #a9aada;
+  }
+
+  #contact-title:active{
+    transform: translateY(-5px);
+    color: #8284a8;
+  }
+
+  #why-title{
+    width: 120px;
+    margin-top: 25px;
+    color: white;
+    position: absolute;
+    margin-left:920px;
+  }
+
+  #why-title:hover{
+    transition-duration: .2s;
+    color: #a9aada;
+  }
+
+  #why-title:active{
+    transform: translateY(-5px);
+    color: #8284a8;
+  }
+
+  #team-title{
+    width: 120px;
+    margin-top: 25px;
+    color: white;
+    position: absolute;
+    margin-left:1090px;
+  }
+
+  #team-title:hover{
+    transition-duration: .2s;
+    color: #a9aada;
+  }
+
+  #team-title:active{
+    transform: translateY(-5px);
+    color: #8284a8;
+  }
+
+  #search-team{
+    margin-left: 1215px;
+    margin-top: 24px;
+    animation: a2 1s infinite alternate-reverse ease-in;
+
+    border-radius: 5px;
+    background-color: rgb(136, 196, 46);
+    height: 25px;
+    width: 60px;
+  }
+
+  #search-font{
+    margin-left: 9px;
+  }
+
+  @keyframes a2 {
+    to {
+        transform: translateY(-5px);
+  }
+  }
