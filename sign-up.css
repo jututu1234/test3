@@ -1,0 +1,136 @@
+#email-register{
+    position: absolute
+}
+#email-title{
+    width: 100px;
+    margin-left: 16px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+}
+
+#email-bar{
+    position: absolute;
+    margin-top: 52px;
+    margin-left: 35px;
+    height: 45px;
+    width: 393px;
+}
+
+#password-register{
+    position: absolute
+}
+#password-title{
+    width: 100px;
+    margin-left: 2px;
+    margin-top: 135px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+}
+
+#password-bar{
+    position: absolute;
+    margin-top: 158px;
+    margin-left: 35px;
+    height: 45px;
+    width: 393px;
+}
+
+#retry-password-register{
+    position: absolute
+}
+#retry-password-title{
+    width: 100px;
+    margin-left: 33px;
+    margin-top: 235px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+}
+
+#retry-password-bar{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 35px;
+    height: 45px;
+    width: 393px;
+}
+
+button{
+    margin-left: 35px;
+    margin-top: 330px;
+    border-radius: 10px;
+    height: 50px;
+    width: 400px;
+    background-color: #4075da;
+    border: #2c64cc;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 22px;
+    transition-duration: .3s;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #6299ff;
+    border: #2c64cc;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+button:active{
+    cursor: pointer;
+    background-color: #4b74c0;
+    border: #2c64cc;
+}
+
+#already-account{
+    margin-top: 15px;
+text-align: center;
+font-family: 'Inter', sans-serif;
+color:rgb(116, 119, 121);
+}
+
+a {
+    transition-duration: .5s;
+    text-decoration: none;
+    color: #3073f0;
+}
+
+a:hover{
+    color: #1f55b8;
+}
+
+span{
+    transition-duration: .7s;
+    color: #29bbff;
+    font-weight: bold;
+}
+
+#left-top{
+    margin-left: 400px;
+    position: absolute;
+    margin-top: -700px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: #3e77e2;
+}
+
+#back-login{
+    margin-top: -700px;
+    margin-left: 1400px;
+    font-size: 14px;
+font-weight: bold;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color:rgb(116, 119, 121);
+    transition-duration: .4s;
+}
+
+#back-login:hover{
+    color:  #3e77e2;
+}

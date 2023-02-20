@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sign-up.css">
+<style>
+
+    #container{
+        border-radius: 12px;
+        margin-top: 100px;
+        margin-right:auto;
+        margin-left:auto;
+        height: 650px;
+        width: 470px;
+        border: 1px solid rgb(238, 230, 230)
+    }
+
+    #font-title{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #font-description{
+        color: rgb(96, 100, 100);
+        margin-top: 15px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #name-title{
+        margin-left: -375px;
+        margin-top: 35px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #name-bar{
+        margin-left: 38px;
+        height: 45px;
+        width: 175px;
+    }
+    #surname-register{
+        position: absolute
+    }
+    #surname-title{
+        margin-left: 253px;
+        margin-top: -70px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        position: absolute;
+    }
+
+    #surname-bar{
+        position: absolute;
+        margin-top: -48px;
+        margin-left: 253px;
+        height: 45px;
+        width: 175px;
+    }
+
+  .placeholder{
+position: absolute;
+  left: 20px;
+  top: 0px;
+  background-color: white;
+  padding: 0 20px;
+}
+
+.filter:focus ~ .placeholder,
+.filter:valid ~ .placeholder {
+  display: none;
+}
+
+    input  {
+font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(230, 226, 226);
+    transition-duration: .3s;
+
+    }
+
+    input:focus{
+outline: none;
+border: 1px solid rgb(204, 193, 193);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input[type="tel"]{
+position: absolute;
+text-align: center;
+            }
+
+input[type="email"]{
+position: absolute;
+text-align: center;
+            }
+
+</style>
+</head>
+<body>
+<div id="container">
+<div id="font-title">Hesap Oluştur</div>
+<div id="font-description">Ailemize katılmak için hesap oluşturabilirsiniz.</div>
+<div id="name-register">
+<div id="name-title">Ad</div>
+ <input type="text" id="name-bar" placeholder="Ahmet">
+</div>
+<div id="surname-register">
+<div id="surname-title">Soyad</div>
+<input type="text" id="surname-bar" placeholder="Öztürk">
+</div>
+<div id="email-register">
+<div id="email-title">E-Posta</div>
+<input type="email" id="email-bar" placeholder="example@gmail.com">
+ </div>
+<div id="password-register">
+<div id="password-title">Şifre</div>
+<input type="password" id="password-bar" placeholder="*********">
+</div>
+<div id="retry-password-register">
+<div id="retry-password-title">Şifre (tekrar)</div>
+<input type="password" id="retry-password-bar" placeholder="*********">
+</div>
+
+<div id="button-submit-type">
+<button type="submit">Hesap Oluştur</button>
+</div>
+
+<div id="already-account">
+    Hesabınız var mı?<span><a href="login-up.html"> Giriş Yap</a></span>
+</div>
+</div>
+
+<p id="left-top">Vivi Unranked</p>
+
+<a href="login-up.html">
+<p id="back-login">< Giriş Yap'a Dön</p>
+</a>
+</body>
+</html>
